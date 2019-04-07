@@ -1,0 +1,46 @@
+#panel-nosotros::after {
+    content: "";
+    /* background: url(../images/image_7.jpg); */
+    background: url(http://img.inforegion.pe.s3.amazonaws.com/wp-content/uploads/2016/03/Residuos-solidos-Foto-Andina.jpg);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+    background-size: auto 100%
+  }
+  .custom-bg-light{
+      background-color: white !important
+  }
+
+  .user-img{
+      height: 170px !important;
+      width: 200px !important
+  }
+
+  .testimony-wrap .text{
+    padding-top: 5em;
+  }
+
+  /* #testimony-section::after {
+    content: "";
+    background: url(https://wallpaperstock.net/wallpapers/thumbs1/49627hd.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+  } */
+
+  #testimony-section.ftco-section{
+    padding: 3em 0 !important;
+  }
